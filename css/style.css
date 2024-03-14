@@ -1,0 +1,93 @@
+body {
+    background-color: #DAEAF1;
+}
+
+
+header>h1 {
+    text-align: center;
+    color: #FF9EAA
+}
+
+.main-container {
+    display: flex;
+    color : #51829B
+}
+
+/* Display Style */
+
+.container-item {
+    width: 100%;
+    padding: 24px;
+}
+
+.container-item>h2 {
+    text-align: left;
+    color: #FF9EAA;
+}
+
+.container-result,
+.container-form {
+    text-align: center;
+    background-color: #FAE7F3;
+    padding-top: 8px;
+    padding-bottom: 35px;
+    border-radius: 5px;
+}
+
+.container-form {
+    text-align: left;
+}
+
+.container-form>div {
+    padding: 8px;
+}
+
+.form-item {
+    height: 24px;
+    border: 0;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.custom-list ol {
+    padding-left: 15px;
+    margin-top: 0;
+}
+
+.custom-list>h4 {
+    margin-bottom: 0;
+}
+
+button {
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: beige;
+    border-radius: 8px;
+}
+
+#calculate-button {
+    background-color: #93C6E7;
+}
+
+.disease-description {
+    text-align: center;
+    list-style-position: inside;
+    text-align: center;
+    background-color: #FAE7F3;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.image-container {
+    padding-top: 16px;
+    text-align: center;
+}
+
+.image-container>img {
+    margin-top: 0;
+    padding-top: 0;
+    margin-top: -75px;
+    max-width: 50%
+}
